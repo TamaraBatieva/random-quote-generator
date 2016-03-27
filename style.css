@@ -1,0 +1,16 @@
+body {
+    background-color: darkblue;
+}
+.quote-block {
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    
+    
+}
+.row {
+    padding: 100px;
+}
+.fa {
+    font-size: 3em;
+}
