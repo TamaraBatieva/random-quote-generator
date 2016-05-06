@@ -2,15 +2,21 @@ body {
     background-color: darkblue;
 }
 .quote-block {
+    position: absolute;
     padding: 50px;
     background-color: white;
     border-radius: 5px;
-    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
     
 }
 .row {
     padding: 100px;
 }
-.fa {
-    font-size: 3em;
+.quote {
+    font-size: 2em;
 }
