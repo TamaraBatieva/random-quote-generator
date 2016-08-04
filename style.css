@@ -1,7 +1,8 @@
 body {
     background-color: darkblue;
 }
-.quote-block {
+#quote-block {
+    height: auto;
     position: absolute;
     padding: 50px;
     background-color: white;
@@ -12,7 +13,7 @@ body {
     min-width: 200px;
     min-height: 200px;
     box-sizing: border-box;
-    
+    transition: all 4s ease-in-out;
 }
 .row {
     padding: 100px;
